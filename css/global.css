@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--cor-bg-home);
   }
@@ -26,4 +30,21 @@ body {
     background: var(--cor-bg-menu);
     color: var(--cor-5);
     transition: 0.3s;
+  }
+
+  .footer {
+    background: var(--cor-1);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .text-legal { 
+    color: #1b1464;
+    font-family: arial;
+    font-size: 12px;
+    line-height: normal;
+    text-align: center;
+    max-width: 900px;
   }
