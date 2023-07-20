@@ -36,8 +36,19 @@ justify-content: center;
   margin-left: 10px;
  }
 
+ .step3 {
+ grid-column: 1/-1;
+ padding-left: 30%;
+ }
 
+.como-part-steps .botao {
+  margin-left: 75%;
+}
 
+.premios {
+  display: flex;
+  justify-content: center;
+  }
 
 
 
