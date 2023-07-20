@@ -1,0 +1,126 @@
+a {
+  color: var(--cor-5);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.participe {
+  background: var(--cor-5);
+  color: var(--cor-1);
+  padding: 25px 10px;
+  margin-left: 35px;
+}
+
+.participe:hover {
+  background: var(--cor-bg-botao);
+}
+
+#logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding: 1rem;
+  box-sizing: border-box;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  background: var(--cor-bg-menu);
+  box-shadow: 0px 2px 5px 0px;
+  z-index: 99;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+
+#menu a {
+  display: block;
+  padding: 1.5rem;
+}
+
+#btn-mob {
+  display: none;
+}
+
+/* ######## HOME ######### */
+
+@media (max-width: 1172px) {
+  #menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    right: 0px;
+    background: var(--cor-bg-menu);
+    height: 0px;
+    transition: 0.6s;
+    z-index: 1000;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  #header {
+    display: grid;
+    grid-template-columns: 9fr 1fr 1fr;
+    gap: 20px;
+  }
+  .participe {
+    padding: 7px;
+  }
+  #nav.active #menu {
+    height: calc(450px - 70px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  #menu a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+  }
+  #btn-mob {
+    display: flex;
+    padding: 0.4rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+  #hamburguer {
+    border-top: 2px solid var(--cor-5);
+    width: 20px;
+  }
+  #hamburguer::after,
+  #hamburguer::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: var(--cor-5);
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+  #nav.active #hamburguer {
+    border-top-color: transparent;
+  }
+  #nav.active #hamburguer::before {
+    transform: rotate(135deg);
+  }
+  #nav.active #hamburguer::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+}
+
+@media (min-width: 1171px) {
+  #logo {
+    display: none;
+  }
+}

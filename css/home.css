@@ -1,0 +1,42 @@
+#home {
+  display: grid;
+  justify-content: center;
+  padding-top: 95px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.img-home {
+  padding-bottom: 50px;
+}
+
+.como-participar {
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content: center;
+}
+
+.como-part-steps {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  position: relative;
+}
+
+ .step1::after {
+  content: "";
+  position: absolute;
+  border: 2px solid rgb(241, 144, 31);
+  height: 146px;
+  margin-left: 10px;
+ }
+
+
+
+

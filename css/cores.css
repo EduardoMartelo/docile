@@ -1,0 +1,22 @@
+:root {
+  --cor-1: #fff;
+  --cor-2: #000;
+  --cor-3: #01a1dd;
+  --cor-4: #017fd3;
+  --cor-5: #1b1464;
+  --cor-6: rgb(190, 20, 26);
+  --cor-7: rgb(230, 28, 35);
+  --cor-8: #f8c37f;
+  --cor-9: #f5ac50;
+  --cor-10: #f19520;
+
+  /* GRADIENTES */
+  --cor-bg-home: linear-gradient(90deg, #017fd3 0%, #01a1dd 49%, #017fd3 100%);
+  --cor-bg-menu: linear-gradient(0deg, #f19520, #f5ac50 66%, #f8c37f);
+  --cor-bg-botao: linear-gradient(
+    90deg,
+    rgb(190, 20, 26) 0%,
+    rgb(230, 28, 35) 49%,
+    rgb(190, 20, 26) 100%
+  );
+}
