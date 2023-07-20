@@ -42,3 +42,11 @@ h1 {
   text-align: center;
   padding-top: 100px;
 }
+
+h2 {
+  color: var(--cor-1);
+  font-size: 1.285rem;
+  text-align: center;
+  font-family: "core_rhino_65_boldregular";
+  line-height: .2;
+}

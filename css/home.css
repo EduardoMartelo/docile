@@ -48,7 +48,26 @@ justify-content: center;
 .premios {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
   }
+
+  .bg {
+  background-image: url(/imgs/premios/bg.onda.webp);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  }
+
+ .prod-participantes {
+  display: grid;
+  justify-content: center;
+ }
+
+ .prod-participantes a {
+  color: var(--cor-1);
+  text-transform: none;
+  text-decoration: underline;
+ }
 
 
 
