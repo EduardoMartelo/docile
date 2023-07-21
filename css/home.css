@@ -92,7 +92,7 @@
 
 .doce-bala {
   position: absolute;
-  right: -20px;
+  right: 0px;
   top: 1360px;
   z-index: 1;
   animation: moveLaterailDirPrem 5s ease-in-out 0.6s infinite;
@@ -118,4 +118,52 @@
 
 .img-prod {
   padding-top: 20px;
+}
+
+@media (max-width: 1175px) {
+  .doce-bala,
+  .doce-marsh,
+  .doce-palito,
+  .doce-quadrado {
+    display: none;
+  }
+  #home {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .como-participar,
+  .img-extra {
+    display: grid;
+    gap: 60px;
+    justify-content: center;
+  }
+  .prod-participantes img,
+  .premios img {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 725px) {
+  .img-home {
+    width: 100%;
+  }
+
+  .como-part-steps {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .step1::after {
+    display: none;
+  }
+  .step3 {
+    grid-column: 1/-1;
+    padding-left: 0%;
+  }
+  .como-part-steps .botao {
+    margin-left: 15%;
+  }
 }
