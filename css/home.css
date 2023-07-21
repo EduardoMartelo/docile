@@ -15,14 +15,29 @@
 
 .lateral-esq {
   position: fixed;
-  right: 0px;
-  top: 30px;
+  left: 0px;
+  top: 160px;
+  z-index: -1;
+}
+
+.doce-quadrado {
+  position: absolute;
+  left: 0px;
+  top: 460px;
   z-index: -1;
 }
 
 .lateral-dir {
   position: fixed;
-  left: 0px;
+  right: 0px;
+  top: 30px;
+  z-index: -1;
+}
+
+.doce-marsh {
+  position: absolute;
+  right: -20px;
+  top: 140px;
   z-index: -1;
 }
 
