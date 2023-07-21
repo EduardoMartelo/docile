@@ -149,9 +149,12 @@
 
 @media (max-width: 725px) {
   .img-home {
-    width: 100%;
+    width: 80%;
+    padding-left: 10%;
   }
-
+  #home {
+    justify-content: center;
+  }
   .como-part-steps {
     display: grid;
     grid-template-columns: 1fr;
@@ -165,5 +168,9 @@
   }
   .como-part-steps .botao {
     margin-left: 15%;
+  }
+  .img-premio {
+    width: 80%;
+    padding-left: 10%;
   }
 }
