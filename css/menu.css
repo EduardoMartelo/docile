@@ -51,8 +51,8 @@ a {
 
 /* ######## HOME ######### */
 
-@media (max-width: 1190px) {
-a{
+@media (max-width: 1205px) {
+#menu a{
   font-size: 14px;
 }
 }

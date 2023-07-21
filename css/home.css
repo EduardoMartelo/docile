@@ -99,7 +99,7 @@
 }
 
 .bg {
-  background-image: url(./imgs/premios/bg.onda.webp);
+  background-image: url(../imgs/premios/bg.onda.webp);
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -159,6 +159,10 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+  .como-participar img{
+    width: 80%;
+    padding-left: 10%;
+  }
   .step1::after {
     display: none;
   }
@@ -172,5 +176,12 @@
   .img-premio {
     width: 80%;
     padding-left: 10%;
+  }
+  .img-prod img{
+    width: 80%;
+    padding-left: 10%;
+  }
+  .prod-participantes h2 {
+    font-size: 12px;
   }
 }
