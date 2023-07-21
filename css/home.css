@@ -99,7 +99,7 @@
 }
 
 .bg {
-  background-image: url(/imgs/premios/bg.onda.webp);
+  background-image: url(./imgs/premios/bg.onda.webp);
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
