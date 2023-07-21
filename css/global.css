@@ -5,14 +5,18 @@ html {
 body {
   background: var(--cor-bg-home);
   }
-  
+
   body,
   ul {
     margin: 0;
     padding: 0;
   }
 
- 
+.wrapper{
+  overflow-x: hidden;
+}
+
+
   .botao {
    color: var(--cor-1); 
    background: var(--cor-bg-botao);
