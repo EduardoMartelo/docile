@@ -1,5 +1,20 @@
 .login {
+  justify-content: center;
+  padding-top: 90px;
   height: 100vh;
+}
+
+.pag-interna {
+  display: grid;
+  justify-content: center;
+}
+
+.img-interna {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  width: 100%;
+  max-width: 1163px;
 }
 
 .doce-marsh-int {
@@ -8,4 +23,19 @@
   top: 500px;
   z-index: -1;
   animation: moveLaterailDir-int 5s ease-in-out 0.6s infinite;
+}
+
+.form-cpf .botao {
+  font-size: 1.3125rem;
+  justify-content: center;
+  height: auto;
+  margin: 25px auto;
+  padding: 10px 40px 13px;
+  position: relative;
+}
+
+@media (max-width: 725px) {
+  .img-interna {
+    display: none;
+  }
 }

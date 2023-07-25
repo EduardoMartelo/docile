@@ -12,14 +12,11 @@ ul {
   padding: 0;
 }
 
-.wrapper {
-  overflow-x: hidden;
-}
-
 .botao {
   color: var(--cor-1);
   background: var(--cor-bg-botao);
   font-size: 2rem;
+  text-transform: uppercase;
   font-weight: bold;
   height: 100%;
   justify-content: center;
@@ -50,6 +47,10 @@ ul {
   line-height: normal;
   text-align: center;
   max-width: 900px;
+}
+
+.wrapper {
+  overflow-x: hidden;
 }
 
 /* ---- ANIMATIONS ----*/
