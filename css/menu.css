@@ -15,10 +15,6 @@ a {
   background: var(--cor-bg-botao);
 }
 
-#logo {
-  position: relative;
-}
-
 #header {
   display: flex;
   align-items: center;
@@ -43,6 +39,10 @@ a {
 #menu a {
   display: block;
   padding: 1.5rem;
+}
+
+#logo {
+  position: relative;
 }
 
 #btn-mob {
@@ -124,8 +124,8 @@ a {
   }
 }
 
-@media (min-width: 1171px) {
+/* @media (min-width: 1171px) {
   #logo {
     display: none;
   }
-}
+} */
