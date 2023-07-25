@@ -59,6 +59,33 @@ ul {
   overflow-x: hidden;
 }
 
+.goToBack {
+  opacity: 0;
+  transition: 0.5s ease;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 12.5px;
+  background: var(--cor-bg-menu);
+  color: var(--cor-5);
+  z-index: 20;
+}
+
+.goToBack:hover {
+  background: var(--cor-bg-botao);
+  color: #fff;
+}
+.goToBack svg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.active {
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
 @media (max-width: 800px) {
   .subtitulo {
     font-size: 3rem;
