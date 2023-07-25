@@ -1,3 +1,11 @@
 .login {
   height: 100vh;
 }
+
+.doce-marsh-int {
+  position: absolute;
+  right: -80px;
+  top: 500px;
+  z-index: -1;
+  animation: moveLaterailDir-int 5s ease-in-out 0.6s infinite;
+}

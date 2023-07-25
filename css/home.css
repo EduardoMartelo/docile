@@ -124,7 +124,8 @@
   .doce-bala,
   .doce-marsh,
   .doce-palito,
-  .doce-quadrado {
+  .doce-quadrado,
+  .doce-marsh-int {
     display: none;
   }
   #home {
@@ -159,7 +160,7 @@
     display: grid;
     grid-template-columns: 1fr;
   }
-  .como-participar img{
+  .como-participar img {
     width: 80%;
     padding-left: 10%;
   }
@@ -177,7 +178,7 @@
     width: 80%;
     padding-left: 10%;
   }
-  .img-prod img{
+  .img-prod img {
     width: 80%;
     padding-left: 10%;
   }
