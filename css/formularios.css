@@ -90,7 +90,6 @@
   .formulario,
   input {
     grid-template-columns: 1fr;
-    width: 80%;
   }
   .col-2 {
     grid-column: span 8;

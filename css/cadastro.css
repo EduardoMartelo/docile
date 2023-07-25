@@ -58,7 +58,7 @@
     text-align: justify;
     max-width: 80%;
   }
-  input {
+  .form-optin input {
     width: 30px;
   }
 }
