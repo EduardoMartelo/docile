@@ -32,6 +32,11 @@ ul {
   transition: 0.3s;
 }
 
+.captcha-btn .botao {
+  margin: 20px;
+  font-size: 1.385rem;
+}
+
 .footer {
   background: var(--cor-1);
   display: flex;

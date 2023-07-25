@@ -1,4 +1,46 @@
-.pag-cadastro{
+.pag-cadastro {
   display: grid;
   justify-content: center;
 }
+
+.optins {
+  max-width: 920px;
+}
+
+.form-optin {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.botao-form {
+  color: var(--cor-1);
+  background: var(--cor-bg-botao);
+  font-size: 1.3125rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: normal;
+  padding: 10px 25px 13px;
+  border-radius: 40px;
+  width: 75px;
+}
+
+.botao-form:hover {
+  background: var(--cor-bg-menu);
+  color: var(--cor-5);
+  transition: 0.3s;
+}
+
+.captcha-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  margin-bottom: 220px;
+}
+
+.captcha{
+  margin: 20px;
+}
+

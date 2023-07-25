@@ -47,7 +47,7 @@ h2 {
   color: var(--cor-1);
   font-size: 1.285rem;
   text-align: center;
-  font-family: "core_rhino_65_boldregular";
+  font-family: "core_rhino_85_boldregular";
   line-height: 0.2;
 }
 
@@ -58,9 +58,15 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  color: var(--cor-1);
+  font-size: 1.2rem;
+  text-align: left;
+  font-family: "core_rhino_85_blackregular";
+}
+
 .form {
   color: var(--cor-5) !important;
-  text-transform: uppercase;
   font-family: arial;
   font-size: 1.375rem;
 }

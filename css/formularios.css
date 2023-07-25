@@ -45,6 +45,7 @@
   font-size: 1rem;
   text-align: center;
   line-height: 20px;
+  font-family: "core_rhino_85_blackregular";
 }
 
 .col-2 {
@@ -107,7 +108,7 @@
     grid-column: span 8;
   }
 
-  .col-8 {
+  .col-7 {
     grid-column: span 8;
   }
 }
