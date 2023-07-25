@@ -43,6 +43,7 @@ ul {
   justify-content: center;
   margin: 0;
   padding: 20px;
+  margin-top: 80px;
 }
 
 .text-legal {
@@ -57,31 +58,6 @@ ul {
 .wrapper {
   overflow-x: hidden;
 }
-
-/* ---- ANIMATIONS ----*/
-[data-anime] {
-  opacity: 0;
-  transition: 1.5s;
-}
-
-[data-anime="left"] {
-  transform: translate3d(-50px, 0, 0);
-}
-
-[data-anime="top"] {
-  transform: translate3d(0, 30px, 0);
-}
-
-[data-anime="bottom"] {
-  transform: translate3d(0, 30px, 0);
-}
-
-[data-anime].animate {
-  opacity: 1;
-  transform: translate3d(0px, 0px, 0px);
-}
-
-/* ---- END ANIMATIONS ----*/
 
 @media (max-width: 800px) {
   .subtitulo {

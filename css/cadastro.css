@@ -9,8 +9,13 @@
 
 .form-optin {
   display: flex;
-  justify-content: center;
+  text-align: justify;
   width: 100%;
+}
+
+.optins input {
+  min-width: 30px;
+  margin-right: 5px;
 }
 
 .botao-form {
@@ -36,11 +41,24 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 60px;
-  margin-bottom: 220px;
+  padding-top: 20px;
+  margin-bottom: 50px;
 }
 
-.captcha{
+.captcha {
   margin: 20px;
 }
 
+@media (max-width: 768px) {
+  .optins {
+    width: 80%;
+  }
+  .form-optin {
+    display: flex;
+    text-align: justify;
+    max-width: 80%;
+  }
+  input {
+    width: 30px;
+  }
+}
