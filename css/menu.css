@@ -51,13 +51,7 @@ a {
 
 /* ######## HOME ######### */
 
-@media (max-width: 1230px) {
-  #menu a {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 1172px) {
+@media (max-width: 1222px) {
   #menu {
     display: block;
     position: absolute;
