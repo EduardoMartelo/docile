@@ -38,4 +38,8 @@
   .img-interna {
     display: none;
   }
+
+  .form-cpf {
+  padding-bottom: 100%;
+  }
 }
